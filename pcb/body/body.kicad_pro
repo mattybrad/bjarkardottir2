@@ -329,7 +329,19 @@
     ],
     [
       "49208239-5efc-4c1f-9e9a-f65be854a588",
-      "pickuppair"
+      "pickuppair1"
+    ],
+    [
+      "aa0c40fb-2994-49a5-bcd0-92727450f40c",
+      "pickuppair2"
+    ],
+    [
+      "51ad2da4-249e-4e93-8132-64eb81709bf9",
+      "pickuppair3"
+    ],
+    [
+      "1ce95f36-d412-4194-bb23-7ef3d7606fd9",
+      "outputstage"
     ]
   ],
   "text_variables": {}
