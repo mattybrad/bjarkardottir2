@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "body.kicad_pro",
+    "filename": "hexaudio.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -324,36 +324,12 @@
   },
   "sheets": [
     [
-      "392bd065-a607-4eff-83a3-798a3e7c56fd",
+      "a13eaf8a-4df5-480c-8408-7e3eacfb2634",
       ""
     ],
     [
-      "49208239-5efc-4c1f-9e9a-f65be854a588",
-      "pickuppair1"
-    ],
-    [
-      "aa0c40fb-2994-49a5-bcd0-92727450f40c",
-      "pickuppair2"
-    ],
-    [
-      "51ad2da4-249e-4e93-8132-64eb81709bf9",
-      "pickuppair3"
-    ],
-    [
-      "1ce95f36-d412-4194-bb23-7ef3d7606fd9",
-      "outputstage"
-    ],
-    [
-      "0ec532ff-7996-4c16-be23-c6d234e49048",
-      "codec1"
-    ],
-    [
-      "2085223b-db3d-43d9-b30b-97ab8cd1e664",
-      "codec2"
-    ],
-    [
-      "28e071a9-d765-4c5b-8e6e-bd238b4a8a54",
-      "codec3"
+      "1b3df974-1b20-4e0a-a6d8-ad44ec32d39f",
+      "codec"
     ]
   ],
   "text_variables": {}

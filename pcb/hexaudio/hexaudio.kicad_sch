@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a13eaf8a-4df5-480c-8408-7e3eacfb2634)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 48.26 36.83) (size 35.56 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1b3df974-1b20-4e0a-a6d8-ad44ec32d39f)
+    (property "Sheetname" "codec" (at 48.26 36.1184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "codec.kicad_sch" (at 48.26 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "hexaudio"
+        (path "/a13eaf8a-4df5-480c-8408-7e3eacfb2634" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
