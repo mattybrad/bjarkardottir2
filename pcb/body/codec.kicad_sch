@@ -839,7 +839,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 10a05961-eaef-4ede-97c3-c672422f4909)
   )
-  (hierarchical_label "DAC_DOUT" (shape output) (at 134.62 110.49 180) (fields_autoplaced)
+  (hierarchical_label "DAC_DOUT" (shape input) (at 134.62 110.49 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 35b77679-ed0a-4f58-9580-f1395e356e51)
   )

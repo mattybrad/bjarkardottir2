@@ -570,18 +570,25 @@
     (uuid 8274a2c3-88c0-4d3c-aa99-f484b6f9f8bf)
   )
   (text_box "Chose TL072 for pickup amplification/buffering. Partly because it's popular and well-documented, partly because it's already high impedance input so no need for buffer stage(?). Can't get within 1.5V of rails, so 5V supply gives 2V range, losing a bit (literally!) of resolution but simplifying the overall design by not requiring 9V power."
-    (at 20.32 13.97 0) (size 41.91 22.86)
+    (at 24.13 50.8 0) (size 41.91 22.86)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid b20e58ea-5350-49ee-b604-a498963f024a)
   )
   (text_box "Gain should be between 2 (assuming 1V peak input signal) and, say, 8 (250mV input), aiming to get output to 2V (max within 1.5V of rails with 5V supply). Keeping feedback resistor at 10K, and starting with 10K input resistor, circuit has gain of 2 by default, can be lowered by adding extra through hole resistor in parallel with default input resistor. 2k parallel resistor would increase gain to 7, for instance."
-    (at 20.32 39.37 0) (size 41.91 26.67)
+    (at 24.13 76.2 0) (size 41.91 26.67)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid d4f9123f-07bf-482e-8306-04b000f098b0)
+  )
+  (text_box "Ignore most of the stuff below, this was from before I was actually going to get 6 channels of proper audio input into the Teensy. Now probably want to copy the Blackaddr TGA Pro again. May need a 9V supply unfortunately, fine for prototype, can always add a boost converter later on."
+    (at 17.78 17.78 0) (size 44.45 21.59)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid f6a59124-1549-4050-93fd-032f2a716f49)
   )
 
   (text "Non-inverting amplifier circuit" (at 143.51 34.29 0)
