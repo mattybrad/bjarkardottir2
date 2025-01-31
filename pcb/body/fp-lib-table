@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "bjarkarbody")(type "KiCad")(uri "${KIPRJMOD}/bjarkarbody.pretty")(options "")(descr ""))
+)
