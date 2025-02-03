@@ -944,10 +944,10 @@
           (reference "R6") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "R20") (unit 1)
+          (reference "R16") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "R34") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
       (project "stomp_00"
@@ -984,7 +984,7 @@
           (reference "C18") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "C56") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1020,7 +1020,7 @@
           (reference "#PWR019") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1057,7 +1057,7 @@
           (reference "C15") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "C53") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1091,10 +1091,10 @@
           (reference "R2") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "R16") (unit 1)
+          (reference "R12") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "R30") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1108,7 +1108,7 @@
   (symbol (lib_id "Device:R_US") (at 144.78 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 251ecdeb-b56d-41f8-8c4f-f36837dccafa)
-    (property "Reference" "R13" (at 144.78 73.5711 90)
+    (property "Reference" "R9" (at 144.78 73.5711 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 144.78 75.4921 90)
@@ -1125,13 +1125,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "R13") (unit 1)
+          (reference "R9") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "R27") (unit 1)
+          (reference "R19") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "R41") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1203,10 +1203,10 @@
           (reference "C9") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "C47") (unit 1)
+          (reference "C20") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "C58") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1276,10 +1276,10 @@
           (reference "R1") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "R15") (unit 1)
+          (reference "R11") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "R29") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1361,7 +1361,7 @@
           (reference "#PWR029") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1395,10 +1395,10 @@
           (reference "R7") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "R21") (unit 1)
+          (reference "R17") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "R35") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1435,7 +1435,7 @@
           (reference "C14") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "C52") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1471,7 +1471,7 @@
           (reference "#PWR027") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1553,7 +1553,7 @@
           (reference "#PWR022") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1589,7 +1589,7 @@
           (reference "#PWR024") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1603,7 +1603,7 @@
   (symbol (lib_id "Device:R_Potentiometer_US") (at 132.08 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bdad45a-d086-431b-8c5f-a23cbab2467d)
-    (property "Reference" "RV5" (at 132.08 124.5315 90)
+    (property "Reference" "RV4" (at 132.08 124.5315 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 132.08 126.4525 90)
@@ -1621,10 +1621,10 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "RV5") (unit 1)
+          (reference "RV4") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "RV4") (unit 1)
+          (reference "RV2") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
           (reference "RV6") (unit 1)
@@ -1702,10 +1702,10 @@
           (reference "R8") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "R22") (unit 1)
+          (reference "R18") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "R36") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1739,10 +1739,10 @@
           (reference "R5") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "R19") (unit 1)
+          (reference "R15") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "R33") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1779,7 +1779,7 @@
           (reference "C16") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "C54") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1816,7 +1816,7 @@
           (reference "C13") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "C51") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1852,7 +1852,7 @@
           (reference "#PWR028") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1889,7 +1889,7 @@
           (reference "C12") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "C50") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1926,7 +1926,7 @@
           (reference "C17") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "C55") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1962,7 +1962,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1996,10 +1996,10 @@
           (reference "R3") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "R17") (unit 1)
+          (reference "R13") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "R31") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2035,7 +2035,7 @@
           (reference "#PWR021") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2069,10 +2069,10 @@
           (reference "C10") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "C48") (unit 1)
+          (reference "C21") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "C59") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2106,10 +2106,10 @@
           (reference "R4") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "R18") (unit 1)
+          (reference "R14") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "R32") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2145,7 +2145,7 @@
           (reference "#PWR020") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2181,7 +2181,7 @@
           (reference "#PWR026") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2217,7 +2217,7 @@
           (reference "#PWR030") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2287,10 +2287,10 @@
           (reference "C8") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "C46") (unit 1)
+          (reference "C19") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "C57") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2304,7 +2304,7 @@
   (symbol (lib_id "Device:R_Potentiometer_US") (at 132.08 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ecf63276-bc34-49f8-8a92-c08dbb28f5d2)
-    (property "Reference" "RV2" (at 132.08 66.1115 90)
+    (property "Reference" "RV3" (at 132.08 66.1115 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 132.08 68.0325 90)
@@ -2322,13 +2322,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "RV2") (unit 1)
+          (reference "RV3") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
           (reference "RV1") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "RV3") (unit 1)
+          (reference "RV5") (unit 1)
         )
       )
     )
@@ -2337,7 +2337,7 @@
   (symbol (lib_id "Device:R_US") (at 144.78 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f78ea0a0-f8bf-4415-866b-80c8dc383009)
-    (property "Reference" "R14" (at 144.78 131.9911 90)
+    (property "Reference" "R10" (at 144.78 131.9911 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 144.78 133.9121 90)
@@ -2354,13 +2354,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "R14") (unit 1)
+          (reference "R10") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "R28") (unit 1)
+          (reference "R20") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "R42") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2432,10 +2432,10 @@
           (reference "C11") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "C49") (unit 1)
+          (reference "C22") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "C60") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2471,7 +2471,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "stomp_00"
