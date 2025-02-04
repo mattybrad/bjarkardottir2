@@ -1,0 +1,68 @@
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, Apr  9 2023, 05:22:13) [MSC v.1934 64 bit (AMD64)]'
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.2
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000001CF8AEC8D30>
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U5 as a reference
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U5'
+Located on: ['codec1']
+With filenames: ['codec.kicad_sch']
+With sheet_id:['codec1']
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('U5', ['codec1']), ('U7', ['codec3']), ('U6', ['codec2'])]
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'codec1', file:'codec.kicad_sch'
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['codec2'], ['codec3']]
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['codec1']
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1883, 80)
+02-03 15:22:49 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1444, 80)
+02-03 15:22:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'codec1', file:'codec.kicad_sch'
+02-03 15:22:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['codec2'], ['codec3']]
+02-03 15:22:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+02-03 15:22:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['codec2'], ['codec3']]
+on level: ['codec1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+02-03 15:22:59 root 332:updating GUI message: 'Preparing for replication'
+02-03 15:22:59 root 337:updating GUI with: 0
+02-03 15:22:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+02-03 15:22:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+02-03 15:22:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+02-03 15:23:00 root 332:updating GUI message: 'Replicating footprints'
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['codec2']
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['codec3']
+02-03 15:23:00 root 332:updating GUI message: 'Replicating tracks'
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['codec2']
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['codec2'] :[('CODEC1_DIN', 'CODEC2_DIN'), ('DAC_BCLK', 'DAC_BCLK'), ('GND', 'GND'), ('CODEC1_DOUT', 'CODEC2_DOUT'), ('DAC_SDA', 'DAC_SDA'), ('Net-(U5-VDDA)', 'Net-(U6-VDDA)'), ('+3.3V', '+3.3V'), ('Net-(U5-SYS_MCLK)', 'Net-(U6-SYS_MCLK)'), ('Net-(U5-VAG)', 'Net-(U6-VAG)'), ('DAC_LRCLK', 'DAC_LRCLK'), ('/codec1/LINE_OUT_R', '/codec2/LINE_OUT_R'), ('DAC_MCLK', 'DAC_MCLK'), ('/codec1/HEADPHONES_R', '/codec2/HEADPHONES_R'), ('/codec1/LINE_IN_L', '/codec2/LINE_IN_L'), ('/codec1/HEADPHONES_GND', '/codec2/HEADPHONES_GND'), ('', ''), ('DAC_SCL', 'DAC_SCL'), ('/codec1/LINE_OUT_L', '/codec2/LINE_OUT_L'), ('/codec1/HEADPHONES_L', '/codec2/HEADPHONES_L'), ('/codec1/LINE_IN_R', '/codec2/LINE_IN_R'), ('+1V8', '+1V8')]
+02-03 15:23:00 root 337:updating GUI with: 50
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['codec3']
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['CODEC1_DOUT'] and dst net: ['', 'codec3', 'DAC_DOUT'], with src_net_depth=1, dst_net_depth=3, src_fp_depth=1, dst_fp_depth=1, match level 0.63
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['codec3'] :[('/codec1/LINE_OUT_L', '/codec3/LINE_OUT_L'), ('Net-(U5-VAG)', 'Net-(U7-VAG)'), ('DAC_BCLK', 'DAC_BCLK'), ('/codec1/HEADPHONES_L', '/codec3/HEADPHONES_L'), ('GND', 'GND'), ('Net-(U5-SYS_MCLK)', 'Net-(U7-SYS_MCLK)'), ('DAC_SDA', 'DAC_SDA'), ('Net-(U5-VDDA)', 'Net-(U7-VDDA)'), ('CODEC1_DOUT', '/codec3/DAC_DOUT'), ('+3.3V', '+3.3V'), ('/codec1/LINE_IN_L', '/codec3/LINE_IN_L'), ('CODEC1_DIN', 'CODEC3_DIN'), ('DAC_LRCLK', 'DAC_LRCLK'), ('DAC_MCLK', 'DAC_MCLK'), ('/codec1/LINE_OUT_R', '/codec3/LINE_OUT_R'), ('/codec1/LINE_IN_R', '/codec3/LINE_IN_R'), ('/codec1/HEADPHONES_R', '/codec3/HEADPHONES_R'), ('', ''), ('DAC_SCL', 'DAC_SCL'), ('/codec1/HEADPHONES_GND', '/codec3/HEADPHONES_GND'), ('+1V8', '+1V8')]
+02-03 15:23:00 root 332:updating GUI message: 'Replicating zones'
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['codec2']
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['codec2'] :[('CODEC1_DIN', 'CODEC2_DIN'), ('DAC_BCLK', 'DAC_BCLK'), ('GND', 'GND'), ('CODEC1_DOUT', 'CODEC2_DOUT'), ('DAC_SDA', 'DAC_SDA'), ('Net-(U5-VDDA)', 'Net-(U6-VDDA)'), ('+3.3V', '+3.3V'), ('Net-(U5-SYS_MCLK)', 'Net-(U6-SYS_MCLK)'), ('Net-(U5-VAG)', 'Net-(U6-VAG)'), ('DAC_LRCLK', 'DAC_LRCLK'), ('/codec1/LINE_OUT_R', '/codec2/LINE_OUT_R'), ('DAC_MCLK', 'DAC_MCLK'), ('/codec1/HEADPHONES_R', '/codec2/HEADPHONES_R'), ('/codec1/LINE_IN_L', '/codec2/LINE_IN_L'), ('/codec1/HEADPHONES_GND', '/codec2/HEADPHONES_GND'), ('', ''), ('DAC_SCL', 'DAC_SCL'), ('/codec1/LINE_OUT_L', '/codec2/LINE_OUT_L'), ('/codec1/HEADPHONES_L', '/codec2/HEADPHONES_L'), ('/codec1/LINE_IN_R', '/codec2/LINE_IN_R'), ('+1V8', '+1V8')]
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['codec3']
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['CODEC1_DOUT'] and dst net: ['', 'codec3', 'DAC_DOUT'], with src_net_depth=1, dst_net_depth=3, src_fp_depth=1, dst_fp_depth=1, match level 0.63
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['codec3'] :[('/codec1/LINE_OUT_L', '/codec3/LINE_OUT_L'), ('Net-(U5-VAG)', 'Net-(U7-VAG)'), ('DAC_BCLK', 'DAC_BCLK'), ('/codec1/HEADPHONES_L', '/codec3/HEADPHONES_L'), ('GND', 'GND'), ('Net-(U5-SYS_MCLK)', 'Net-(U7-SYS_MCLK)'), ('DAC_SDA', 'DAC_SDA'), ('Net-(U5-VDDA)', 'Net-(U7-VDDA)'), ('CODEC1_DOUT', '/codec3/DAC_DOUT'), ('+3.3V', '+3.3V'), ('/codec1/LINE_IN_L', '/codec3/LINE_IN_L'), ('CODEC1_DIN', 'CODEC3_DIN'), ('DAC_LRCLK', 'DAC_LRCLK'), ('DAC_MCLK', 'DAC_MCLK'), ('/codec1/LINE_OUT_R', '/codec3/LINE_OUT_R'), ('/codec1/LINE_IN_R', '/codec3/LINE_IN_R'), ('/codec1/HEADPHONES_R', '/codec3/HEADPHONES_R'), ('', ''), ('DAC_SCL', 'DAC_SCL'), ('/codec1/HEADPHONES_GND', '/codec3/HEADPHONES_GND'), ('+1V8', '+1V8')]
+02-03 15:23:00 root 332:updating GUI message: 'Replicating text'
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['codec2']
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['codec3']
+02-03 15:23:00 root 332:updating GUI message: 'Replicating drawings'
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['codec2']
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['codec3']
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 259:Letting the user know there are some issues with replicated design
+02-03 15:23:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 263:Looks like the design has an exotic connectivity that the plugin might not handle properly
+ Make sure that you check the connectivity around:
+Footprint U7, pad 16
+
