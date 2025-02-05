@@ -999,7 +999,7 @@
   (symbol (lib_id "power:+9V") (at 105.41 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1bd39137-b195-4366-ae49-7cdd62f71231)
-    (property "Reference" "#PWR010" (at 105.41 76.2 0)
+    (property "Reference" "#PWR011" (at 105.41 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 105.41 68.8881 0)
@@ -1015,13 +1015,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1221,7 +1221,7 @@
   (symbol (lib_id "power:GND") (at 97.79 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36d71fb6-456e-47cd-8a1f-430561759f55)
-    (property "Reference" "#PWR09" (at 97.79 116.84 0)
+    (property "Reference" "#PWR010" (at 97.79 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 114.3 0)
@@ -1237,13 +1237,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1340,7 +1340,7 @@
   (symbol (lib_id "power:+3.3V") (at 173.99 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 582fa748-28d8-4a09-8fda-09ef325cc8c3)
-    (property "Reference" "#PWR020" (at 173.99 50.8 0)
+    (property "Reference" "#PWR021" (at 173.99 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 173.99 43.434 0)
@@ -1356,13 +1356,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1450,7 +1450,7 @@
   (symbol (lib_id "power:GND") (at 158.75 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d1f7c0b-4883-4c79-b531-c639ba3b977b)
-    (property "Reference" "#PWR018" (at 158.75 60.96 0)
+    (property "Reference" "#PWR019" (at 158.75 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.75 58.42 0)
@@ -1466,13 +1466,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1532,7 +1532,7 @@
   (symbol (lib_id "power:GND") (at 105.41 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7934b706-d266-44ac-bb5f-a1f30d597b37)
-    (property "Reference" "#PWR013" (at 105.41 152.4 0)
+    (property "Reference" "#PWR014" (at 105.41 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.41 149.86 0)
@@ -1548,13 +1548,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1568,7 +1568,7 @@
   (symbol (lib_id "power:GND") (at 124.46 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7a86c1ba-1702-4efe-9c94-5551c7175304)
-    (property "Reference" "#PWR015" (at 124.46 177.8 0)
+    (property "Reference" "#PWR016" (at 124.46 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 175.26 0)
@@ -1584,13 +1584,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1831,7 +1831,7 @@
   (symbol (lib_id "power:GND") (at 158.75 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e36b600-4adb-4a98-8175-77aa7069a999)
-    (property "Reference" "#PWR019" (at 158.75 118.11 0)
+    (property "Reference" "#PWR020" (at 158.75 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.75 115.57 0)
@@ -1847,13 +1847,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
       (project "stomp_00"
@@ -1941,7 +1941,7 @@
   (symbol (lib_id "power:+9V") (at 124.46 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b79dd63a-56a8-42ab-bec9-8823bb798e08)
-    (property "Reference" "#PWR014" (at 124.46 160.02 0)
+    (property "Reference" "#PWR015" (at 124.46 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 124.46 152.7081 0)
@@ -1957,13 +1957,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2014,7 +2014,7 @@
   (symbol (lib_id "power:+9V") (at 105.41 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c560d8dd-d05f-491c-9cdb-2c1cecce5c77)
-    (property "Reference" "#PWR012" (at 105.41 134.62 0)
+    (property "Reference" "#PWR013" (at 105.41 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 105.41 127.3081 0)
@@ -2030,13 +2030,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2124,7 +2124,7 @@
   (symbol (lib_id "power:GND") (at 105.41 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d04e3a46-17d3-4176-b0b1-a26320fcc4d9)
-    (property "Reference" "#PWR011" (at 105.41 93.98 0)
+    (property "Reference" "#PWR012" (at 105.41 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.41 91.44 0)
@@ -2140,13 +2140,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2160,7 +2160,7 @@
   (symbol (lib_id "power:GND") (at 149.86 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5970424-500a-48d3-8f90-1f3a9eeade6d)
-    (property "Reference" "#PWR017" (at 149.86 149.86 0)
+    (property "Reference" "#PWR018" (at 149.86 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 147.32 0)
@@ -2176,13 +2176,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2196,7 +2196,7 @@
   (symbol (lib_id "power:+3.3V") (at 173.99 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6714e0c-01dd-4838-8ff3-ef4b6d3db3f7)
-    (property "Reference" "#PWR021" (at 173.99 107.95 0)
+    (property "Reference" "#PWR022" (at 173.99 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 173.99 100.584 0)
@@ -2212,13 +2212,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2232,7 +2232,7 @@
   (symbol (lib_id "power:GND") (at 97.79 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb8dc466-8224-47d8-af4b-2a9bcaabe09d)
-    (property "Reference" "#PWR08" (at 97.79 59.69 0)
+    (property "Reference" "#PWR09" (at 97.79 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 57.15 0)
@@ -2248,13 +2248,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "stomp_00"
@@ -2450,7 +2450,7 @@
   (symbol (lib_id "power:GND") (at 149.86 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fef20e60-4c54-46db-a27f-50f3a7d5a66a)
-    (property "Reference" "#PWR016" (at 149.86 91.44 0)
+    (property "Reference" "#PWR017" (at 149.86 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 88.9 0)
@@ -2466,13 +2466,13 @@
     (instances
       (project "body"
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/49208239-5efc-4c1f-9e9a-f65be854a588"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/aa0c40fb-2994-49a5-bcd0-92727450f40c"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
         (path "/392bd065-a607-4eff-83a3-798a3e7c56fd/51ad2da4-249e-4e93-8132-64eb81709bf9"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
       (project "stomp_00"
