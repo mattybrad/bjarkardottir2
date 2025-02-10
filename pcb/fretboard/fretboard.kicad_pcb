@@ -4889,5 +4889,8 @@
     )
 
     (stroke (width 0.15) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 73dacd64-9b78-4e9b-b578-0fccfa716751))
+  (gr_text "3.3V\nGND\nCLOCK\nLOAD\nDATA" (at 42.164 181.9656) (layer "F.SilkS") (tstamp b9e44918-57ab-4326-b996-5c8c41c34388)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify right bottom))
+  )
 
 )
