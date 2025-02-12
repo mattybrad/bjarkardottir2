@@ -1,4 +1,4 @@
-21670609882568010
+21674096572601724
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -327,7 +327,14 @@ Soldered wire connection, for a single 0.75 mm² wire, basic insulation, conduct
 connector wire 0.75sqmm
 0
 2
-1
+2
+Bjarkar
+MountingHole_2.2mm_M2_countersunk
+Mounting Hole 2.2mm, no annular, M2
+mounting hole 2.2mm no annular m2
+0
+0
+0
 Bjarkar
 bjarkar_fretboard_header
 surface-mounted straight socket strip, 1x05, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
@@ -335,6 +342,13 @@ Surface mounted socket strip SMD 1x05 2.54mm single row style1 pin1 left
 0
 5
 5
+Bjarkar
+jst zh fretboard connector
+JST PH series connector, S5B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+7
+6
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
