@@ -1071,7 +1071,7 @@
     (property "Reference" "C56" (at 90.551 113.6563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22uF" (at 90.551 115.5773 0)
+    (property "Value" "22uF 16V" (at 90.551 115.5773 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 88.5952 118.11 0)
