@@ -1,4 +1,4 @@
-21668877577492466
+21674095862370831
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90201,3 +90201,24 @@ Teensy41_breakout
 0
 96
 48
+bjarkarbody
+gk3 connector THT
+Wuerth WR-WTB series connector, 64800811622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+8
+8
+bjarkarbody
+jst zh fretboard connector
+
+zh
+0
+7
+6
+bjarkarbody
+jst zh gk3 connector
+
+zh
+0
+10
+9
