@@ -2965,9 +2965,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 7793c8ba-0e4f-4a88-92fb-a800e0fc3236))
     (fp_line (start 1.6 1.25) (end -1.6 1.25)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c614de49-33c0-4ebb-a618-d2f58cc741c4))
-    (pad "1" smd roundrect (at -1.475 0 270) (size 1.15 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "1" smd roundrect (at -1.475 0 270) (size 1.15 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 107 "Net-(JP1-A)") (pintype "passive") (tstamp 65e533e5-4ada-46f5-866b-ff90f0736ef6))
-    (pad "2" smd roundrect (at 1.475 0 270) (size 1.15 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "2" smd roundrect (at 1.475 0 270) (size 1.15 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 5 "GND") (pintype "passive") (tstamp 26416985-f9e2-4ddc-a0c9-2a3e0b1335be))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
       (offset (xyz 0 0 0))
@@ -11986,9 +11986,9 @@
       (net 41 "FRET_LOAD") (pinfunction "Pin_4") (pintype "passive") (tstamp 21f7c35f-d6d0-421f-9418-2f61cd7ac9fb))
     (pad "5" smd roundrect (at -3 -2.2 180) (size 0.85 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 42 "FRET_DATA") (pinfunction "Pin_5") (pintype "passive") (tstamp ef06b004-ee3c-4c44-8aaf-520b4d48c7df))
-    (pad "6" smd roundrect (at -5 1.4 180) (size 1.3 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.166667)
+    (pad "6" smd roundrect (at -5 1.4 180) (size 1.3 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666669231)
       (net 141 "unconnected-(J1-Pin_6-Pad6)") (pinfunction "Pin_6") (pintype "passive+no_connect") (tstamp 17cb891c-09e5-4eaf-aa84-d696bf5b8802))
-    (pad "6" smd roundrect (at 5 1.4 180) (size 1.3 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.166667)
+    (pad "6" smd roundrect (at 5 1.4 180) (size 1.3 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666669231)
       (net 141 "unconnected-(J1-Pin_6-Pad6)") (pinfunction "Pin_6") (pintype "passive+no_connect") (tstamp c2148abc-d913-45f9-bcf5-f4f209e04d46))
     (model "${KIPRJMOD}/../fretboard/S5B-ZR-SM4A-TF.STEP"
       (offset (xyz 0 0 0))
