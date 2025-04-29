@@ -1349,8 +1349,12 @@
 		)
 		(symbol "power:+1V8"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1450,8 +1454,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+1V8"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1471,8 +1474,12 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1572,8 +1579,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3.3V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1593,8 +1599,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1670,8 +1680,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2676,7 +2685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c4f3b5b-c176-4c48-97b9-6409ee97da89")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 91.44 113.03 0)
 			(effects
 				(font
@@ -2711,12 +2720,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2725,15 +2735,15 @@
 		(instances
 			(project "body2"
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c1feb4ca-8cfd-464c-87f4-c6f44369e3ef"
-					(reference "#PWR071")
+					(reference "#PWR073")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c479731f-e64e-44fe-b03b-b9b0a66ef5c3"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/ef2a7711-a7c2-4878-bf74-326e38fd0dd7"
-					(reference "#PWR078")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -2930,7 +2940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38e56ed8-498a-454e-80a7-e8535d079116")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 125.73 99.06 0)
 			(effects
 				(font
@@ -2965,12 +2975,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 125.73 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2979,15 +2990,15 @@
 		(instances
 			(project "body2"
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c1feb4ca-8cfd-464c-87f4-c6f44369e3ef"
-					(reference "#PWR073")
+					(reference "#PWR075")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c479731f-e64e-44fe-b03b-b9b0a66ef5c3"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/ef2a7711-a7c2-4878-bf74-326e38fd0dd7"
-					(reference "#PWR080")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -3270,7 +3281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e7aa1b1-9c9f-48bc-9cd5-ed79823a95b0")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR064"
 			(at 90.17 132.08 0)
 			(effects
 				(font
@@ -3305,12 +3316,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 90.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3319,15 +3331,15 @@
 		(instances
 			(project "body2"
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c1feb4ca-8cfd-464c-87f4-c6f44369e3ef"
-					(reference "#PWR097")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c479731f-e64e-44fe-b03b-b9b0a66ef5c3"
-					(reference "#PWR096")
+					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/ef2a7711-a7c2-4878-bf74-326e38fd0dd7"
-					(reference "#PWR098")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -3937,6 +3949,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3969,7 +3982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c425dd36-b7d0-48a3-a8fc-192faea7d98c")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -4004,12 +4017,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
 			(at 139.7 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4018,15 +4032,15 @@
 		(instances
 			(project "body2"
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c1feb4ca-8cfd-464c-87f4-c6f44369e3ef"
-					(reference "#PWR074")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c479731f-e64e-44fe-b03b-b9b0a66ef5c3"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/ef2a7711-a7c2-4878-bf74-326e38fd0dd7"
-					(reference "#PWR081")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -4087,12 +4101,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 83.82 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4101,7 +4116,7 @@
 		(instances
 			(project "body2"
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c1feb4ca-8cfd-464c-87f4-c6f44369e3ef"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c479731f-e64e-44fe-b03b-b9b0a66ef5c3"
@@ -4109,7 +4124,7 @@
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/ef2a7711-a7c2-4878-bf74-326e38fd0dd7"
-					(reference "#PWR077")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -4135,7 +4150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e28c32c2-d1b0-4bd9-860a-9696823ac49a")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 115.57 80.01 0)
 			(effects
 				(font
@@ -4170,12 +4185,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 115.57 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4184,15 +4200,15 @@
 		(instances
 			(project "body2"
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c1feb4ca-8cfd-464c-87f4-c6f44369e3ef"
-					(reference "#PWR072")
+					(reference "#PWR074")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c479731f-e64e-44fe-b03b-b9b0a66ef5c3"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/ef2a7711-a7c2-4878-bf74-326e38fd0dd7"
-					(reference "#PWR079")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -4228,7 +4244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e33bbda1-9673-4d21-ad09-b59cfc48ec41")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 149.86 134.62 0)
 			(effects
 				(font
@@ -4263,12 +4279,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 149.86 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4277,15 +4294,15 @@
 		(instances
 			(project "body2"
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c1feb4ca-8cfd-464c-87f4-c6f44369e3ef"
-					(reference "#PWR075")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c479731f-e64e-44fe-b03b-b9b0a66ef5c3"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/ef2a7711-a7c2-4878-bf74-326e38fd0dd7"
-					(reference "#PWR082")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -4404,7 +4421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2e09b54-03e1-4bcc-9bd2-2e848c2f2d04")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 168.91 67.31 0)
 			(effects
 				(font
@@ -4439,12 +4456,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 168.91 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4453,15 +4471,15 @@
 		(instances
 			(project "body2"
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c1feb4ca-8cfd-464c-87f4-c6f44369e3ef"
-					(reference "#PWR076")
+					(reference "#PWR078")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/c479731f-e64e-44fe-b03b-b9b0a66ef5c3"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/392bd065-a607-4eff-83a3-798a3e7c56fd/073c7d27-a0d4-435d-bbdf-4ca13a422348/ef2a7711-a7c2-4878-bf74-326e38fd0dd7"
-					(reference "#PWR083")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
