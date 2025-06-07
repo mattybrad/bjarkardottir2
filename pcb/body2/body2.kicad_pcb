@@ -40783,6 +40783,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C843301"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dedc12a4-bf90-4f25-9c24-3d7f91a6d8ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/1a6ed37c-c9ef-40ab-9127-b7ac3319730a/e8e7966c-10ab-4081-ab0a-0f788b12f2b8")
 		(sheetname "/Power/")
